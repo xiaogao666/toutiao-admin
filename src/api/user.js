@@ -31,7 +31,7 @@ export const UpdateUserPhoto = data => {
     data
   })
 }
-// 修改用户基本信息en
+// 修改用户基本信息
 export const UpdateUserProfile = data => {
   return request({
     method: 'PATCH',
