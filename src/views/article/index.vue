@@ -227,7 +227,7 @@ export default {
     },
 
     onDeletArticle (articleId) {
-      // 找接口 请求方法 删除请求调用 处理结果
+      // 找接口 请求方法 删除请求调用 处理结果,
       this.$confirm('确认删除吗?', '删除提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
